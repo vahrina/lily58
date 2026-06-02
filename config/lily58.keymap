@@ -79,12 +79,5 @@
         extra_3 { status = "reserved"; };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        ok {
-            if-layers = <1>;
-            then-layer = <1>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
